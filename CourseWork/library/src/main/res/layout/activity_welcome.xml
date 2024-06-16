@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/welcome"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="欢迎使用!"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:layout_height="wrap_content"></TextView>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="370dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="vertical"
+            android:background="#F1F1F1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        在开始使用之前，请您仔细阅读以下使用条款。通过使用我们的应用程序，即表示您同意遵守以下规定。如果您不同意这些规定，请不要使用我们的应用程序。"
+                android:textSize="13sp"
+                android:textColor="#B1B1B1"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#B1B1B1"
+                android:text="———————————————————————————————"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="1. 用户责任"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        1.1 您对使用应用程序的所有活动负全部责任。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        1.2 不得使用我们的应用程序进行任何非法活动，包括但不限于盗版、侵犯版权、滥用他人隐私等。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="2. 隐私政策"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        2.1 我们尊重用户隐私。请阅读我们的隐私政策，以了解我们如何收集、使用和保护您的个人信息。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="3. 内容准确性"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        3.1 我们努力确保应用程序中的所有信息和内容准确无误。然而，我们不对信息的准确性负责。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="4. 知识产权"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        4.1 应用程序中的所有知识产权（包括但不限于文字、图像、标志、图标、音频和视频剪辑）均属于我们或相关权利持有人所有。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        4.2 未经明示许可，您不得复制、传播、展示、出售、出版、传播或以其他方式利用任何应用程序内的内容。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="5. 修改和终止"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        5.1 我们保留随时修改、暂停或终止应用程序的权利，无需提前通知。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="6. 免责声明"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        6.1 应用程序按“原样”提供，不提供任何形式的担保。对于因使用本应用程序而导致的任何损失或损害，我们概不负责。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        6.2 我们不对用户通过应用程序访问的第三方网站、服务或广告的内容、准确性或可靠性负责。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="7. 其他条款"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        7.1 本协议构成您与我们之间关于应用程序使用的完整协议，取代所有之前的沟通和协议。"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="        7.2 如果本协议的任何部分被裁定为无效或不可执行，该部分将被视为与适用法律一致，而其他部分则仍具有法律效力。"
+                android:layout_height="wrap_content"></TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/welcomebtn"
+                android:text="同意条约"
+                android:layout_height="wrap_content"></Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

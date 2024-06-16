@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminChangebook">
+
+    <include
+        android:id="@+id/admin4_top"
+        layout="@layout/top4_toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></include>
+
+    <LinearLayout
+        android:id="@+id/changebook_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/admin4_top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#F8E6B0"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/change_bookimg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/inputimage"></ImageView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书名："></TextView>
+
+            <EditText
+                android:id="@+id/change_booktitle"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书号："></TextView>
+
+            <EditText
+                android:id="@+id/change_bookinsb"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="类型："></TextView>
+
+            <Spinner
+                android:id="@+id/change_category"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="推荐："></TextView>
+
+            <CheckBox
+                android:id="@+id/change_bookis_recommend"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"></CheckBox>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者："></TextView>
+
+            <EditText
+                android:id="@+id/change_bookauthor"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出版社："></TextView>d
+
+            <EditText
+                android:id="@+id/change_bookpublisher"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价格："></TextView>
+
+            <EditText
+                android:id="@+id/change_bookprice"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="数量："></TextView>
+
+            <EditText
+                android:id="@+id/change_bookquantity"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="简介："></TextView>
+
+            <EditText
+                android:id="@+id/change_bookdescription"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"></EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#D5895C"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/book_changebtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:stateListAnimator="@null"
+            android:text="提交修改"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

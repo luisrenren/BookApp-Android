@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserBooks">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#3D68C2"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:id="@+id/usertop6_toolbar"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/adbt_book22"
+            android:layout_height="25dp"></ImageView>
+        <EditText
+            android:id="@+id/user_searchbooks"
+            android:layout_width="270dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:paddingRight="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="40dp"></EditText>
+        <ImageButton
+            android:id="@+id/user_searchbtn"
+            android:layout_width="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/search_book"
+            android:layout_height="30dp"></ImageButton>
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

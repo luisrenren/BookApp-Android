@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".AdminloginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/adminlogin"
+        android:id="@+id/adminlogin_image"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_height="wrap_content"></ImageView>
+
+    <TextView
+        android:id="@+id/pleaseloginadmin"
+        style="@style/ww"
+        android:layout_below="@id/adminlogin_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="管理员登录"
+        android:textSize="25sp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/adminlogin_username"
+        android:layout_below="@+id/pleaseloginadmin"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp">
+            <TextView
+                android:text="账    号"
+                style="@style/ww"></TextView>
+            <EditText
+                android:id="@+id/adminloginusername"
+                android:background="@drawable/edittext_bg2"
+                style="@style/editText"></EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/adminlogin_password"
+        android:layout_below="@+id/adminlogin_username"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp">
+            <TextView
+                android:text="密    码"
+                style="@style/ww"></TextView>
+            <EditText
+                android:id="@+id/adminloginpassword"
+                android:background="@drawable/edittext_bg2"
+                style="@style/editText"></EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/adminlogin_btn"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adminlogin_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="150dp"
+        android:text="登录"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/adminlogin_btn"
+        android:orientation="vertical"
+        android:background="#F1F1F1"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="————————————————————————"
+            android:textColor="#BCBCBC"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="如遇到问题，请联系lci719955094@qq.com"
+            android:textColor="#BCBCBC"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

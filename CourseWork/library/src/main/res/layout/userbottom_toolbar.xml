@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#3D68C2"
+        android:elevation="4dp"
+        android:id="@+id/userbottom_toolbar"
+        android:layout_height="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="90dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="30dp"
+                android:id="@+id/homepage_1"
+                android:background="@drawable/user_item1"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:tint="#F3F3F3"></ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="首页"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="30dp"
+                android:id="@+id/search_2"
+                android:background="@drawable/user_item2"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:tint="#F3F3F3"></ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="搜索"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="30dp"
+                android:id="@+id/userself_3"
+                android:background="@drawable/user_item3"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:tint="#F3F3F3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="个人"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginA">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        style="@style/ww">
+        <TextView
+            android:text="用户名"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"></TextView>
+        <EditText
+            android:id="@+id/usernameedit"
+            android:background="@drawable/edittext_bg2"
+            style="@style/editText"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        style="@style/ww">
+        <TextView
+            android:text="密    码"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"></TextView>
+        <EditText
+            android:id="@+id/passwordedit"
+            android:background="@drawable/edittext_bg2"
+            style="@style/editText"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/auto_login"
+            android:text="自动登录"
+            android:textColor="#9E9E9E"
+            android:layout_height="wrap_content"></CheckBox>
+        <TextView
+            android:text="    [管理员登录入口]"
+            android:id="@+id/adminlogin"
+            android:textColor="#3D68C2"
+            android:layout_gravity="center"
+            style="@style/ww"></TextView>
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/loginbtn"
+        android:text="登录"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"></Button>
+
+</LinearLayout>

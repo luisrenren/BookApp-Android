@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminBooks">
+
+    <include
+        android:id="@+id/admin1_top"
+        layout="@layout/top1_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"></include>
+
+    <LinearLayout
+        android:id="@+id/inputbook"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/admin1_top"
+        android:background="#FFFEFC"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/book_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/inputimage"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text=" 类型："></TextView>
+
+            <Spinner
+                android:id="@+id/book_category"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"></Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="书名："></TextView>
+
+            <EditText
+                android:id="@+id/book_title"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textSize="16dp"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="作者："></TextView>
+
+            <EditText
+                android:id="@+id/book_author"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textSize="16dp"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="书号："></TextView>
+
+            <EditText
+                android:id="@+id/book_isbn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textSize="16dp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="出版社："></TextView>
+
+            <EditText
+                android:id="@+id/book_publisher"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textSize="16dp"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="价格："></TextView>
+
+            <EditText
+                android:id="@+id/book_price"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textSize="16dp"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="数量："></TextView>
+
+            <EditText
+                android:id="@+id/book_quantity"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textSize="16dp"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="推荐："></TextView>
+
+            <CheckBox
+                android:id="@+id/book_is_recommend"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"></CheckBox>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="简介："></TextView>
+
+            <EditText
+                android:id="@+id/book_description"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textSize="12dp"></EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/inputbookbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加 入 书 籍"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/inputbook"
+        android:id="@+id/showbooktitle"
+        android:background="#F8E6B0"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:text="图片"
+            android:gravity="center"
+            android:layout_height="40dp"></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:text="书名"
+            android:gravity="center"
+            android:layout_height="40dp"></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:text="书号"
+            android:gravity="center"
+            android:layout_height="40dp"></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
+            android:text="推荐"
+            android:gravity="center"
+            android:layout_height="40dp"></TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/book_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/showbooktitle"
+        android:paddingBottom="55dp"></ListView>
+</RelativeLayout>

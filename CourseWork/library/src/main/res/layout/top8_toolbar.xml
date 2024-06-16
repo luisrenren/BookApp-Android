@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowBook">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/t3"
+        app:title="书本详情"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:id="@+id/usertop8_toolbar"
+        android:layout_height="?attr/actionBarSize">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_marginLeft="260dp"
+            android:background="@drawable/back"
+            android:id="@+id/book_backbtn"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_height="30dp"></ImageButton>
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

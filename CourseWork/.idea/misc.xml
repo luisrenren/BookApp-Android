@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/app/src/main/res/layout/activity_login.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/app/src/main/res/layout/activity_main.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.121" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/admin_item1.xml" value="0.1265" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/admin_item2.xml" value="0.1265" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/admin_item3.xml" value="0.1265" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/edittext_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/edittext_bg2.xml" value="0.118" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/login_item.xml" value="0.102" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/register_item.xml" value="0.102" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/search_book.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/shape.xml" value="0.13" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/user_item1.xml" value="0.135" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/user_item2.xml" value="0.135" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/drawable/user_item3.xml" value="0.135" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_admin.xml" value="0.1125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_admin_books.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_admin_changebook.xml" value="0.1368421052631579" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_admin_self.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_admin_users.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_adminlogin.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_haibao.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_haibao_a.xml" value="0.253125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_haibao_b.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_haibao_c.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_inputname.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_login.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_login2.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_login_a.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_login_b.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_show_book.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_user_books.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_user_homepage.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_user_self.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/adminbottom_toolbar.xml" value="0.12" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop1_toolbar.xml" value="0.1125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop2_toolbar.xml" value="0.1125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop3_toolbar.xml" value="0.1125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop4_toolbar.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop5_toolbar.xml" value="0.253125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop6_toolbar.xml" value="0.16049382716049382" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop7_toolbar.xml" value="0.253125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/admintop8_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/books_item.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/changeuser_view.xml" value="0.22946544980443284" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/login_toolbar.xml" value="0.4" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/recommend_item.xml" value="0.20967741935483872" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/top4_toolbar.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/top5_toolbar.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/top6_toolbar.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/top7_toolbar.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/top8_toolbar.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/user_books_item.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/userbottom_toolbar.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/layout/users_item.xml" value="0.1140625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/CourseWork/library/src/main/res/menu/admin_menu.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

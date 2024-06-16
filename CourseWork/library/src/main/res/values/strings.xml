@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string-array name="categories">
+        <item>科学</item>
+        <item>教育</item>
+        <item>文学</item>
+        <item>其他</item>
+    </string-array>
+</resources>

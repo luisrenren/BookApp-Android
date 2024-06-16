@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/login"
+        android:id="@+id/login_image"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_height="wrap_content"></ImageView>
+
+    <include
+        android:layout_width="match_parent"
+        layout="@layout/login_toolbar"
+        android:layout_below="@+id/login_image"
+        android:id="@+id/included"
+        android:layout_height="wrap_content"></include>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_below="@+id/included"
+        android:id="@+id/viewpager2"
+        android:layout_height="300dp"></androidx.viewpager2.widget.ViewPager2>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/viewpager2"
+        android:orientation="vertical"
+        android:background="#F1F1F1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="————————————————————————"
+            android:textColor="#BCBCBC"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="使用其他方式登录"
+            android:textColor="#BCBCBC"
+            android:layout_height="wrap_content"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/tx"
+                android:layout_marginRight="40dp"
+                android:layout_height="30dp"></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/wb"
+                android:layout_marginRight="40dp"
+                android:layout_height="30dp"></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/wx"
+                android:layout_height="30dp"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminBooks">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#D5895C"
+        app:title="图书管理"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:id="@+id/admintop1_toolbar"
+        android:layout_height="?attr/actionBarSize">
+
+        <EditText
+            android:id="@+id/admin_searchbooks"
+            android:layout_width="220dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:paddingRight="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="40dp"></EditText>
+        <ImageButton
+            android:id="@+id/admin_searchbtn"
+            android:layout_width="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/search_book"
+            android:layout_height="30dp"></ImageButton>
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>
